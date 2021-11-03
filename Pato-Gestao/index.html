@@ -60,6 +60,36 @@ Suspendisse sed bibendum diam. Phasellus sit amet nunc maximus, pellentesque nul
             </p>
         </div>
         </div>
+        <div id="chart"></div>
         <script src="" async defer></script>
+        
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type="text/javascript">
+            google.charts.load('current', { packages: [ 'corechart' ] })
+            google.charts.setOnLoadCallback(drawChart)
+    
+            function drawChart() {
+                const container = document.querySelector('#chart')
+                const data = new google.visualization.arrayToDataTable([
+                    [ 'vacina', 'pessoas' ],
+                    [ 'Pizer', 10000 ],
+                    [ 'CoronaVac', 9000 ],
+                    [ 'Butantam', 8000 ],
+                    [ 'Sem vacina', 5000 ],
+                    [ 'Não identificados', 2000 ]
+                ])
+                const options = {
+                    title: 'Covid vacina',
+                    height: 400,
+                    width: 720
+                }
+    
+                // const chart = new google.visualization.ColumnChart(container)
+                // const chart = new google.visualization.BarChart(container)
+                // const chart = new google.visualization.LineChart(container)
+                const chart = new google.visualization.PieChart(container)
+                chart.draw(data, options)
+            }
+        </script>
     </body>
 </html>
