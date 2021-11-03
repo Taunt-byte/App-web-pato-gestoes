@@ -13,10 +13,26 @@
   
 }
 .navbar a{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: fantasy;
     text-decoration: none;
     padding: 10px ;
     text-align: left;
     color: #fff;
-    
+    size-adjust: normal;
+}
+.sobre{
+    text-align: center;
+    padding: 30px 10px 30px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+.imuni{
+    text-align: center;
+    padding: 30px 10px 30px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logi{
+    text-align: center;
+    padding: 30px 10px 30px 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
