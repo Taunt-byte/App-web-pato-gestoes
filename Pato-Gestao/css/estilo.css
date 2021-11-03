@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    padding: 15px;
+    font-family:fantasy;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    background-color:rgb(12, 15, 212);
+  
+}
+.navbar a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    padding: 10px ;
+    text-align: left;
+    color: #fff;
+    
+}
