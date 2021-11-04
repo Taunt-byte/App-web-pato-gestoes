@@ -114,29 +114,51 @@ a {
     height: auto;
 }
 /*Index CSS*/
+.empr{
+  text-align: center;
+  padding: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.empr h1{
+  text-align: center;
+  padding: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
 .sobre{
     text-align: justify;
-    padding: 30px 30px 30px;
+    padding: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .sobre h1{
     text-align: center;
-    padding: 30px 30px 30px;
+    padding: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
 .cont{
     text-align: center;
-    padding: 30px 30px 30px;
+    padding: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
 .imuni{
     text-align: justify;
-    padding: 30px 30px 30px;
+    padding: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .imuni h1{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
+}
+.des1{
+  color: rgb(255, 255, 255);
+}
+.des2{
+  color: rgb(255, 255, 255);
+}
+.des3{
+  color: rgb(0, 0, 0);
+}
+.carousel {
+  padding:10px 50px 0px 50px;
 }
 /*cadastre CSS*/
 div#corpo-form{

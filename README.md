@@ -5,3 +5,7 @@
 
     https://taunt-byte.github.io/Pato-Gestoes/
 
+# o que to usadno
+
++ Bootstrap
++ Xampp
