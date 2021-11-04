@@ -37,51 +37,25 @@
             <p>
                 Ao apresentar sintomas como coriza, tosse, dor de garganta, dor de cabeça e febre, fique em casa! Ao menos que você faça parte do grupo de risco, não há motivos para se desesperar. A OMS afirma que 80% dos infectados se recuperam sem necessidade de tratamento especial. É preciso ter cuidado com o próximo e evitar contagiar outras pessoas.
             </p>
-        </div>
-        <div id="previnir" class="sobre">
-            <h1>Como previnir o contágio</h1>
             <br>
+            <h1>Como se previnir do contágio do COVID-19</h1>
+            
+            <br>
+            <img src="img/contagio.png">
         </div>
         <!--Gerenciamento de imunizantes da empresa e total de imunizados-->
         <div id="Imunizante" class="imuni">
-            <h1></h1>
-            <h2>Gerenciamento de imunizantes (empresas), seus respectivos lotes e distribuição
-                nas localidades brasileiras</h2>
-            <br>
-            <div id="chart">
 
-            </div>
+            <h1>Gerenciamento de imunizantes empresas, seus respectivos lotes e distribuição
+                nas localidades brasileiras</h1>
+            <br>
+            <p></p>
+            <h1>Gerenciamento das pessoas que foram imunizadas e suas respectivas doses,
+                locais de aplicação, entre outros;</h1>
         </div>
         </div>
         <script src="" async defer></script>
         
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <script type="text/javascript">
-            google.charts.load('current', { packages: [ 'corechart' ] })
-            google.charts.setOnLoadCallback(drawChart)
-    
-            function drawChart() {
-                const container = document.querySelector('#chart')
-                const data = new google.visualization.arrayToDataTable([
-                    [ 'vacina', 'pessoas' ],
-                    [ 'Pizer', 10000 ],
-                    [ 'CoronaVac', 9000 ],
-                    [ 'Butantam', 8000 ],
-                    [ 'Sem vacina', 5000 ],
-                    [ 'Não identificados', 2000 ]
-                ])
-                const options = {
-                    title: 'Covid vacina',
-                    height: 400,
-                    width: 720
-                }
-    
-                // const chart = new google.visualization.ColumnChart(container)
-                // const chart = new google.visualization.BarChart(container)
-                // const chart = new google.visualization.LineChart(container)
-                const chart = new google.visualization.PieChart(container)
-                chart.draw(data, options)
-            }
-        </script>
+
     </body>
 </html>
