@@ -5,7 +5,10 @@
 
     https://taunt-byte.github.io/Pato-Gestoes/
 
-# o que to usadno
+# o que eu estou usando
 
 + Bootstrap
-+ Xampp
++ js
++ python
++ CSS
++ Django

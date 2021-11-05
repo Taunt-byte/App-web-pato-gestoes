@@ -148,6 +148,9 @@ a {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
+.imuni a{
+  color: rgb(172, 8, 8);
+}
 .des1{
   color: rgb(255, 255, 255);
 }
@@ -160,7 +163,7 @@ a {
 .carousel {
   padding:10px 50px 0px 50px;
 }
-/*cadastre CSS*/
+/*login CSS*/
 div#corpo-form{
     width: 420px;
     margin: 150px auto 0px auto;
