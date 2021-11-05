@@ -67,5 +67,3 @@ Falar sobre o que precisa para rodar o programa e como
     <td>3</td>
     </tr>
 </table>
-
-+ Django
