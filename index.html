@@ -88,7 +88,7 @@
                 </button>
               </div>
             <!--Dados e explicações sobre o covid-->
-            <div id="sobre" class="sobre">
+            <div id="covid-19" class="sobre">
                 <h1>O que é o Coronavírus (COVID-19)</h1>
                     <p>
                         Coronavírus é uma família de vírus que causam infecções respiratórias. O novo agente do coronavírus foi descoberto em 31/12/19 após casos registrados na China. Provoca a doença chamada de coronavírus (COVID-19).
@@ -112,8 +112,14 @@
                 <h1>Como fazemos a gerenciação dos imunizantes ?</h1>
                 <br>
                 <p>
-                    Para Fazermos o gerenciamento de imunizantes utilizamos os seguintes parametros que você pode 
+                    Para Fazermos o gerenciamento de imunizantes utilizamos os seguintes parametros que você pode responder aqui mesmo sem a necesssidade de login
                 </p>
+                <form id="form" name="form" method="post" action="save.php">
+                  <input type="text" name="nome" placeholder="nome">
+                  <input type="text" name="vacina" placeholder="vacina">
+                  <input type="text" name="vacina" placeholder="local de vacinção">
+                  <input type="submit" value="Enviar">
+               </form>
               </div>
               </main>
         <!--Custom JS-->
