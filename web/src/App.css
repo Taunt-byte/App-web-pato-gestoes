@@ -14,30 +14,65 @@
 .navbar-logo{
   font-family: 'Dancing Script', cursive;
   font-size: large;
+  margin: 15px;
 }
 
 .navbar-menu{
+  display: flex;
   justify-content: space-between;
+  gap: 10px;
+  list-style: none;
 }
-
-
+.navbar a{
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+.navbar a:hover{
+  color: #d3d3d3;
+}
 /* Footer CSS */
 
-.footer{
+.rodape{
   font-family: Arial, sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #444a55;
+  flex-shrink: 0;
 }
 
-.footer a{
+.rodape ul{
+  gap: 10px;
+  list-style: none;
+}
+
+.rodape a{
   text-decoration: none;
-  color: rgb(21, 255, 0);
+  color: white;
+  margin-right: 10px;
 }
 
-.footer a:hover{
-  background-color: rgb(255, 255, 255);
-  border-radius: 10%;
-  color: rgb(0, 0, 0);
+.rodape a:hover{
+  color: #d3d3d3;
+}
+
+.rodape-social{
+  display: block;
+  text-align: left;
+}
+
+.rodape-social ul{
+  padding-inline-start: 0px;
+}
+
+.rodape-social ul li {
+  margin-top: 5px;
+  bottom: 5px;
+}
+
+/* Home */
+.h1home{
+  flex: 1 0 auto;
+  background-color: blue;
 }

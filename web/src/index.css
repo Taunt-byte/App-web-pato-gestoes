@@ -1,5 +1,12 @@
+html,body{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
-  margin: 0;
+  display: flex;
+  flex-direction: column;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,6 +14,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #24272c;
   color: rgb(255, 255, 255);
+
 }
 
 code {
