@@ -1,110 +1,84 @@
-<p align="center">
-  <a href="https://unform.dev">
-    <img src="img/Logo.png" height="150" width="175" alt="Unform" />
-  </a>
-</p>
-<h1 align="center">Pato Gestoes</h1> 
+# Pato Gestões
 
-<p align="center">Aplicação web que gerencia imunizantes e facilita o relatorios de empresas</p>
-
-Tabela de conteúdos
-=================
-<!--ts-->
-   * [Sobre](#Sobre)
-   * [LiveDemo](#live-demo)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
-   * [Instalação](#Instalação)
-   * [Como usar](#como-usar)
-      * [Pre Requisitos](#pre-requisitos)
-   * [Tecnologias](#tecnologias)
-<!--te-->
-
-<h4 align="center"> 
-      	🚧  Em desenvolvimento.  🚧
-</h4>
-
-## Sobre
-
-Essa aplicação web se trata de um Website que tem como objetivo ajudar as autoridades no combate ao Covid-19 onde ele gera dados e converter arquivos para se usar no Power Bi (Microsft).
-
-# Live Demo 
-
-    https://taunt-byte.github.io/Pato-Gestoes/
-
-## Tabela de conteudo
-
-- [x] Sistema de login
-- [ ] Gerenciamento de imunizantes, seus respectivos lotes e distribuição
-nas localidades brasileiras
-- [ ] Gerenciamento das pessoas que foram imunizadas e suas respectivas doses,
-locais de aplicação, entre outros;
-- [ ] Visualização de relatórios, dashboards e/ou KPIs que ajudem as autoridades
-nacionais na tomada de decisão.
-- [X] Video do youtube
-
-## Instalação
-
-Para instalar esse projeto e necessario os seguintes itens
-
-1) Ter uma IDE instalado em sua maquina como o vscode que se encontra a baixo
-
-    https://code.visualstudio.com/
-
-2) Ter instalado em sua maquina o Xampp o link para a instalação se encontra abaixo:
-
-    https://www.apachefriends.org/pt_br/index.html
-
-3) Para utilizar esse repositorio você deve ter em sua maquina o Git e para fazer a instalação do mesmo basta usar o link abaixo:
-
-    https://git-scm.com/downloads
+Essa aplicação web se trata de um Website que tem como objetivo ajudar na tomada de decisão de empresas e autoridades onde ele gera dados e converter arquivos para se usar no Power Bi (Microsft) e outros aplicativos do mesmo.
 
 
-4) A baixar esse repositorio utilizanto o git com o comando abaixo
+## Funcionalidades
 
-    <code> git clone https://github.com/Taunt-byte/Pato-Gestoes.git </code>
+- Sistema de login.
+- Gerenciamento de produtos.
+- Gerenciamento das pessoas.
+- Visualização de relatórios, dashboards e/ou KPIs que ajudem na tomada de decisão.
 
 
-5) Ter em sua maquina o Power Bi instalado para visualização das dashboards e para fazer a instalação basta abrir o link abaixo:
+## Demonstração
 
-    https://powerbi.microsoft.com/pt-br/desktop/
+Insira um gif ou um link de alguma demonstração
 
-## Como usar
 
-Para utilizar essa aplicação basta abrir o arquivo index.html ou acessar o link abaixo:
+## Variáveis de Ambiente
 
-    https://taunt-byte.github.io/Pato-Gestoes/
+Baixe o Node.js: Acesse o site oficial do Node.js (https://nodejs.org/) e baixe a versão mais recente para o seu sistema operacional.
 
-## Pre Requisitos
+Instale o Node.js: Execute o arquivo de instalação que você baixou e siga as instruções do assistente de instalação para concluir a instalação.
 
-Para utilizar esse repositorio devem ser feitos os seguintes passos:
+Verifique a instalação: Abra o terminal ou prompt de comando e digite o comando "node -v" para verificar se o Node.js foi instalado corretamente. O comando deve retornar a versão instalada do Node.js.
 
-1) Instalar o Git em sua maquina 
+Baixe o npm: O npm é instalado automaticamente com o Node.js. No entanto, é possível verificar a versão do npm digitando "npm -v" no terminal.
 
-2) Instalar um IDE para modificação
+Configure o PATH: O PATH é uma variável de ambiente que permite que o sistema operacional localize os executáveis do Node.js e do npm. Se o Node.js e o npm não estiverem no PATH, você precisará adicioná-los manualmente. Para fazer isso, abra o terminal ou prompt de comando e digite o seguinte comando:
 
-Para utilizar a parte do banco de dados deve se seguir os seguintes passos:
+No Windows:
 
-1) Ter em sua maquina o Xampp
+    set PATH=%PATH%;C:\Program Files\nodejs
 
-2) Ter em sua maquina o Power Bi
+No macOS ou Linux:
+    
+    export PATH=$PATH:/usr/local/bin
 
-## Tecnologias
+Verifique a configuração: Para verificar se o PATH foi configurado corretamente, digite "node -v" e "npm -v" no terminal ou prompt de comando. Ambos os comandos devem retornar as versões correspondentes do Node.js e do npm.
+## Rodando localmente
 
-<table>
-    <tr>
-    <td>Bootstrap</td>
-    <td>JavaScript</td>
-    <td>CSS</td>
-    <td>PHP</td>
-    <td>MySql</td>
-    <td>Power Bi</td>
-    </tr>
-    <tr>
-    <td>5</td>
-    <td>-</td>
-    <td>3</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    </tr>
-</table>
+Clone o projeto
+
+```bash
+  git clone git@github.com:Taunt-byte/App-web-pato-gestoes.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd App-web-pato-gestoes
+```
+
+Instale as dependências
+
+```bash
+  cd web
+```
+
+```bash
+  npm i
+```
+
+Inicie o servidor
+
+```bash
+    npm start
+```
+
+
+## Documentação
+
+[Documentação](https://link-da-documentação)
+
+
+## Feedback
+
+Se você tiver algum feedback, por favor nos deixe saber por meio de lucasluan94@hotmail.com
+
+
+## Suporte
+
+Para suporte, mande um email para lucasluan94@hotmail.com
+
