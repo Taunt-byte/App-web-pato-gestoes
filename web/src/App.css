@@ -1,5 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+/* Navbar CSS*/
+
 .navbar {
-  background-color: #24272c;
-  color: white;
+  background-color: #444a55;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.navbar-logo{
+  font-family: 'Dancing Script', cursive;
+  font-size: large;
+}
+
+.navbar-menu{
+  justify-content: space-between;
+}
+
+
+/* Footer CSS */
+
+.footer{
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #444a55;
+}
+
+.footer a{
+  text-decoration: none;
+  color: rgb(21, 255, 0);
+}
+
+.footer a:hover{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10%;
+  color: rgb(0, 0, 0);
+}
